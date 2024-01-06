@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
     <title>Document</title>
 </head>
 <body>
-    text
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" id="message-text" placeholder="Enter message here">
+            </div>
+            <div class="col">
+                <button id="message-button">Add message</button>
+            </div>
+        </div>
+        <div id="message-list"></div>
+    </div>
+
+    <!-- <script src="/public/first-class.js"></script> -->
+    <script src="/public/composition.js"></script>
 </body>
 </html>
